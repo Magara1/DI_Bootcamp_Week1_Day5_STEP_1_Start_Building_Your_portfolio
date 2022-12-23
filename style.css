@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+
+body{
+    justify-content: center;
+    background-color: rgb(244, 238, 238);
+}
+
+nav{
+    background-color:#f97300;
+    width: 100%;
+    padding: 5px;
+    position: fixed;
+}
+
+ .navbar{
+    background-color: #f97300;
+}
+
+
+ .navbar div a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+ .navbar div ul li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+
+header{
+    background-image: url("images/headerback.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 650px;
+   padding: 80px;
+  
+  
+}
+
+#overlay{
+    background-color: black;
+    opacity: 0.6;
+}
+
+.mini-info{
+    justify-content: center;
+    margin-top: 120px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.mini-info h1{
+color: #f97300;
+font-size: 30px;
+font-weight: bold;
+}
+
+.mini-info a{
+text-decoration: none;
+padding: 10px;
+color: white;
+background-color: #f97300;
+border-radius: 5px;
+}
+
+
+.about-me h1{
+    margin: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color:#f97300;
+}
+
+.container .row div .photo-profil{
+    border-radius: 1000px;
+}
+
+.row{
+    margin-top: 20px;
+}
+.col-md-4{
+text-align: center;
+justify-content: right;
+}
+
+.col-md-1{
+    border-right: 5px solid green;
+}
+
+.DJohn{
+    text-align: justify;
+    border-left:5px solid green ;
+}
+
+.DJohn h2{
+    color: green;
+}
+
+.portfo img{
+    width: 100%;
+    height: 300px;
+}
+
+.portfolio h1{
+    margin: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f97300;
+}
+
+.blog{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.blog h1{
+    margin: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f97300;
+}
+
+.blog-card{
+    width: 100%;
+    text-align: left;
+}
+.card img{
+    width:100%;
+    height: 200px;
+}
+
+.card-footer a{
+    text-decoration: none;
+}
+
+.Our-Team h1{
+    margin: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f97300;
+}
+
+.Our-Team-name{
+    background-color: #f97300;
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 100%;
+}
+
+.Our-Team{
+    margin-bottom: 120px;
+}
+
+.contact{
+    margin-bottom: 50px;
+}
+
+.contact h3{
+    color: #f97300;
+    margin-top: 100px;
+}
+
+.contact ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.col-md-6{
+    text-align: center;
+}
+.contact ul li a i{
+    color: #f97300;
+}
+.validation{
+    background-color: #f97300;
+    color: white;
+}
+
+
+
+
+
